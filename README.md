@@ -1,5 +1,5 @@
 # Machine Learning on Existing Loan Metrics to Flag High-Risk Loans for Manual Review
-The intent of the code within this repository is to use a supervised machine learning algorithm using various available loan dimensions on historical loans to train the machine learning algorithm on how to identify high-risk loans. This algorithm could be run against future loans to identify which loans are most likely to be healthy and which are most likely to be at high-risk so that underwriters or other financial analysts could focus their attention on the loans that are most likely to be at risk based upon dimensions that may not be obvious indicators of an issue. 
+The intent of the code within this repository is to use a supervised machine learning algorithm using various available loan dimensions on historical loans to train the machine learning algorithm on how to identify high-risk loans. This algorithm could be run against future loans to identify which loans are most likely to be healthy and which are most likely to be at high-risk so that underwriters or other financial analysts could focus their attention on the loans that are most likely to be at risk based upon dimensions that may not give obvious indicators of an issue. 
 
 The overall process followed will be as follows:
 - An existing set of loans that are already known to be either healthy or "at risk" will be loaded into a dataframe for analysis
@@ -14,6 +14,6 @@ The overall process followed will be as follows:
 
 At the end of the notebook, you will find the answer to the question of whether this machine learning model would be useful. If it can accurately predict, with a reasonable degree of accuracy, which loans are at risk then analysts and underwriters could use it to determine which loans should be flagged for manual review.
 
-The `Resources` subdirectory contains the datafile for training and analysis. The `Credit_Risk` subdirectory contains a Jupyter notebook called `credit_risk_classification.ipynb` with all the required python code. The `credit_risk_analysis.md` report contains the analysis of results.
+The `Credit_Risk` subdirectory contains the datafile for training and analysis called lending_data.csv as well as a Jupyter notebook called `credit_risk_classification.ipynb` with all the required python code. The `credit_risk_analysis.md` report contains the analysis of results.
 
 All code is my own, but Xpert Learning Assistance was used to lookup the correct syntax for the logistic regression model.
