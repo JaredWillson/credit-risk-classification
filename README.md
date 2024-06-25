@@ -14,6 +14,6 @@ The overall process followed will be as follows:
 
 At the end of the notebook, you will find the answer to the question of whether this machine learning model would be useful. If it can accurately predict, with a reasonable degree of accuracy, which loans are at risk then analysts and underwriters could use it to determine which loans should be flagged for manual review.
 
-The `Credit_Risk` subdirectory contains the datafile for training and analysis called lending_data.csv as well as a Jupyter notebook called `credit_risk_classification.ipynb` with all the required python code. The `credit_risk_analysis.md` report contains the analysis of results.
+The `Resources` subdirectory contains the datafile for training and analysis called lending_data.csv. The `Credit_Risk` subdirectory contains Jupyter notebook called `credit_risk_classification.ipynb` with all the required python code. The `credit_risk_analysis.md` report contains the analysis of results.
 
 All code is my own, but Xpert Learning Assistance was used to lookup the correct syntax for the logistic regression model.
